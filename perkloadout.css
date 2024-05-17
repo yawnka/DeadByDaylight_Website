@@ -1,0 +1,92 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* NAV BAR: */
+ul.nav-bar {
+  /* Styling for the <ul class="nav-bar"> element */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #719dc2;
+  border-style: solid;
+  border-color: #597ea2;
+}
+
+/* TODO (optional): Change the font size*/
+
+li.nav {
+  /* Styling for the <li class="nav"> element */
+  float: right;
+  font-size: 15px;
+}
+
+/* TODO (optional): Change the font color, decoration, and/or case */
+
+li.nav a {
+  /* Styling for the <a> elements in <li class="nav"> */
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
+
+li.nav a:hover {
+  /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
+  background-color: #f9a620;
+  color: #FFFFFF;
+}
+
+
+/* BODY */
+body,
+html {
+  height: 100%;
+  font-size: 20px;
+  /* Change the font size*/
+  font-family: 'Lora', serif;
+  line-height: 1.5em;
+  /* Change the line height size*/
+  margin: 0em;
+  color: #FFFFFF;
+  text-align: center;
+  background-color: #354c65;
+  box-sizing: border-box;
+}
+
+/* image scaling */
+.dbdimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1 {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+h2 {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.four-perks {
+  display: flex;
+  margin-top: 2em;
+  left: 50%;
+  padding: 10px;
+  transform: translate(25%, 0%);
+}
+
+.perk img {
+  height: 6em;
+}
